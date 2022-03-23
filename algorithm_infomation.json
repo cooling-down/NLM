@@ -1,0 +1,12 @@
+{
+	"name": "Non-local Mean",
+	"Chinese_name": "非局部均值算法",
+	"abbreviation": "NLM",
+	"classification": "滤波",
+	"description": "该算法需要计算数据中所有数据与当前数据之间的相似性，考虑到这个计算量与效率的问题，一般会设定两个固定大小的区间，一个大的搜索区间(D)和一个小的邻域区间(d)，邻域区间在搜索区间中进行滑动，根据邻域区间的相似性来确定对应中心数据对当前数据的影响度，也就是权值",
+	"feature": "使用NLM方法去除信号中的背景噪声和异常值干扰",
+	"reference_papers": "Antoni Buades, Bartomeu Coll, and Jean-Michel Morel, Non-Local Means Denoising, Image Processing On Line, 1 (2011), pp. 208–212",
+	"reference_book": "",
+	"banner": "",
+	"details": ""
+}
